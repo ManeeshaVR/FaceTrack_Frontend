@@ -1,4 +1,4 @@
-# Dream Institute — Main Portal (Frontend React)
+# Dream Institute — Main Frontend
 
 This is the primary user-facing frontend for students and guests of the Dream Institute. It provides access to class information, teacher profiles, and admin/teacher management features.
 
