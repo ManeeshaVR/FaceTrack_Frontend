@@ -12,7 +12,6 @@ import ClassScheduleModule from "./pages/admin/ClassScheduleModule";
 import EnrollmentModule from "./pages/admin/EnrollmentModule";
 import PaymentModule from "./pages/admin/PaymentModule";
 import ScoreModule from "./pages/admin/ScoreModule";
-import MarkAttendance from "./pages/admin/MarkAttendance";
 import AttendanceRecords from "./pages/admin/AttendanceRecords";
 import Analysis from "./pages/admin/Analysis";
 import Reports from "./pages/admin/Reports";
@@ -57,7 +56,6 @@ export const router = createBrowserRouter([
       { path: "enrollments", Component: EnrollmentModule },
       { path: "payments", Component: PaymentModule },
       { path: "scores", Component: ScoreModule },
-      { path: "mark-attendance", Component: MarkAttendance },
       { path: "attendance-records", Component: AttendanceRecords },
       { path: "analysis", Component: Analysis },
       { path: "reports", Component: Reports },

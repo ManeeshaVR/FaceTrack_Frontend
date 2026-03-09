@@ -35,7 +35,6 @@ export default function AdminLayout() {
     { path: "/admin/enrollments", icon: UserPlus, label: "Enrollments" },
     { path: "/admin/payments", icon: DollarSign, label: "Payments" },
     { path: "/admin/scores", icon: Star, label: "Scores" },
-    { path: "/admin/mark-attendance", icon: CheckSquare, label: "Mark Attendance" },
     { path: "/admin/attendance-records", icon: FileText, label: "Attendance Records" },
     { path: "/admin/analysis", icon: BarChart3, label: "Analysis" },
     { path: "/admin/reports", icon: FileText, label: "Reports" },

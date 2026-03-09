@@ -296,7 +296,7 @@ export default function ClassModule() {
           />
 
           <Input
-            label="Monthly Fee ($)"
+            label="Monthly Fee (LKR)"
             type="number"
             value={formData.fee}
             onChange={(e) => setFormData({ ...formData, fee: e.target.value })}

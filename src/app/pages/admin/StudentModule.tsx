@@ -341,16 +341,6 @@ export default function StudentModule() {
                     Delete
                   </Button>
                 </div>
-                {!student.hasFaceEmbedding && (
-                  <Button
-                    variant="secondary"
-                    size="sm"
-                    icon={Camera}
-                    onClick={() => setIsCameraModalOpen(true)}
-                  >
-                    Add Face
-                  </Button>
-                )}
               </div>
             </CardContent>
           </Card>
